@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quack — Support</title>
+        <style>
+            :root {
+                color-scheme: light dark;
+                --bg: #ffffff;
+                --fg: #1c1c1e;
+                --muted: #6b6b70;
+                --accent: #0a84ff;
+                --border: #e5e5ea;
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg: #000000;
+                    --fg: #f2f2f7;
+                    --muted: #8e8e93;
+                    --accent: #0a84ff;
+                    --border: #2c2c2e;
+                }
+            }
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                    "Segoe UI", Roboto, sans-serif;
+                background: var(--bg);
+                color: var(--fg);
+                line-height: 1.6;
+                -webkit-font-smoothing: antialiased;
+            }
+            main {
+                max-width: 720px;
+                margin: 0 auto;
+                padding: 48px 24px 96px;
+            }
+            header {
+                margin-bottom: 32px;
+                padding-bottom: 24px;
+                border-bottom: 1px solid var(--border);
+            }
+            h1 {
+                font-size: 2rem;
+                margin: 0 0 8px;
+                letter-spacing: -0.02em;
+            }
+            .subtitle {
+                color: var(--muted);
+                margin: 0;
+                font-size: 0.95rem;
+            }
+            p {
+                margin: 0 0 16px;
+            }
+            a {
+                color: var(--accent);
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            footer {
+                margin-top: 64px;
+                padding-top: 24px;
+                border-top: 1px solid var(--border);
+                color: var(--muted);
+                font-size: 0.875rem;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Support</h1>
+                <p class="subtitle">Quack for iOS</p>
+            </header>
+
+            <p>
+                If you have any questions, feedback, or need help with Quack,
+                feel free to reach out at
+                <a href="mailto:karolpoczta@windowslive.com">karolpoczta@windowslive.com</a>.
+                We'll do our best to get back to you as soon as possible.
+            </p>
+
+            <footer>&copy; 2026 Quack</footer>
+        </main>
+    </body>
+</html>
